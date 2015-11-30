@@ -1,0 +1,695 @@
+﻿[2015.11.30-13.15.30:301][  0]Log file open, 11/30/15 14:15:30
+[2015.11.30-13.15.30:301][  0]LogInit:Display: Running engine for game: Factories3D
+[2015.11.30-13.15.30:301][  0]LogPlatformFile: Not using cached read wrapper
+[2015.11.30-13.15.30:301][  0]LogInit:Display: RandInit(-917121409) SRandInit(-917121408).
+[2015.11.30-13.15.30:301][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.11.30-13.15.30:301][  0]LogStats: Stats thread started at 0.069097
+[2015.11.30-13.15.30:301][  0]LogInit: Version: 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.11.30-13.15.30:301][  0]LogInit: API Version: 2758231
+[2015.11.30-13.15.30:301][  0]LogInit: Compiled (64-bit): Nov  7 2015 05:13:45
+[2015.11.30-13.15.30:301][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2015.11.30-13.15.30:301][  0]LogInit: Build Configuration: Development
+[2015.11.30-13.15.30:301][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2015.11.30-13.15.30:301][  0]LogInit: Command line:  
+[2015.11.30-13.15.30:301][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2015.11.30-13.15.30:301][  0]LogInit: Rocket: 1
+[2015.11.30-13.15.30:309][  0]LogInit: Using libcurl 7.41.0
+[2015.11.30-13.15.30:309][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.30-13.15.30:309][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.30-13.15.30:309][  0]LogInit:  - other features:
+[2015.11.30-13.15.30:309][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.30-13.15.30:309][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.30-13.15.30:309][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.30-13.15.30:309][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.30-13.15.30:309][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.30-13.15.30:309][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.30-13.15.30:309][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.30-13.15.30:309][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.30-13.15.30:309][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.30-13.15.30:309][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.30-13.15.30:319][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.30-13.15.30:330][  0]LogInit: Object subsystem initialized
+[2015.11.30-13.15.30:334][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.30-13.15.30:334][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.30-13.15.30:342][  0]LogInit: Computer: YANNIC-HP
+[2015.11.30-13.15.30:342][  0]LogInit: User: Yannic
+[2015.11.30-13.15.30:342][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.11.30-13.15.30:342][  0]LogInit: High frequency timer resolution =2.338339 MHz
+[2015.11.30-13.15.30:342][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.11.30-13.15.30:342][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.30-13.15.30:342][  0]LogMemory: Process Physical Memory: 55.90 MB used, 55.90 MB peak
+[2015.11.30-13.15.30:342][  0]LogMemory: Process Virtual Memory: 55.72 MB used, 55.72 MB peak
+[2015.11.30-13.15.30:343][  0]LogMemory: Physical Memory: 3764.79 MB used, 8122.15 MB total
+[2015.11.30-13.15.30:343][  0]LogMemory: Virtual Memory: 383.16 MB used, 134217728.00 MB total
+[2015.11.30-13.15.30:404][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2015.11.30-13.15.31:025][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce 840M        (Feature Level 11_0)
+[2015.11.30-13.15.31:025][  0]LogD3D11RHI: Adapter has 1996MB of dedicated video memory, 0MB of dedicated system memory, and 4061MB of shared system memory, 1 output[s]
+[2015.11.30-13.15.31:033][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2015.11.30-13.15.31:033][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 4061MB of shared system memory, 0 output[s]
+[2015.11.30-13.15.31:035][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.30-13.15.31:035][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4061MB of shared system memory, 0 output[s]
+[2015.11.30-13.15.31:035][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.30-13.15.31:044][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.30-13.15.31:044][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.30-13.15.31:063][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.30-13.15.31:078][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Intermediate/Shaders/WorkingDirectory/17452/).
+[2015.11.30-13.15.31:079][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Yannic/AppData/Local/Temp/UnrealShaderWorkingDir/49266E4B4D4EED060D42B483674B1767/'.
+[2015.11.30-13.15.31:079][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.30-13.15.32:137][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.30-13.15.32:143][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.30-13.15.32:150][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.30-13.15.32:159][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.30-13.15.32:169][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.30-13.15.32:179][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.30-13.15.32:186][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.30-13.15.32:190][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.30-13.15.32:195][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.30-13.15.32:201][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.30-13.15.32:206][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.30-13.15.32:214][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2015.11.30-13.15.32:214][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.30-13.15.32:216][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.30-13.15.32:235][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.30-13.15.32:239][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.30-13.15.32:244][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.30-13.15.32:252][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.30-13.15.32:252][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.30-13.15.32:368][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.30-13.15.32:433][  0]LogDerivedDataCache: Loaded boot cache 0.06s 41MB C:/Users/Yannic/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.11.30-13.15.32:433][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Yannic/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2015.11.30-13.15.32:433][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Yannic/Documents/GitHub/Factories3D/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.30-13.15.32:433][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.30-13.15.32:433][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Yannic/Documents/GitHub/Factories3D/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.30-13.15.32:433][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.30-13.15.32:512][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.30-13.15.32:524][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Yannic/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.30-13.15.32:737][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.30-13.15.32:740][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.30-13.15.32:878][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.30-13.15.32:878][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.30-13.15.33:170][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.30-13.15.34:100][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.30-13.15.34:205][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
+[2015.11.30-13.15.34:418][  0]SourceControl: Info Source control is disabled
+[2015.11.30-13.15.34:419][  0]SourceControl: Info Source control is disabled
+[2015.11.30-13.15.34:433][  0]SourceControl: Info Source control is disabled
+[2015.11.30-13.15.34:448][  0]SourceControl: Info Source control is disabled
+[2015.11.30-13.15.34:719][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2015.11.30-13.15.34:719][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2015.11.30-13.15.34:786][  0]LogEngine: Initializing Engine...
+[2015.11.30-13.15.34:789][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.11.30-13.15.34:789][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.30-13.15.34:939][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.30-13.15.34:945][  0]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.30-13.15.34:961][  0]LogInit: FAudioDevice initialized.
+[2015.11.30-13.15.34:993][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Yannic/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.11.30-13.15.34:998][  0]LogInit: Texture streaming: Enabled
+[2015.11.30-13.15.35:005][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.30-13.15.35:006][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.11.30-13.15.35:006][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId d9173d30423c63632fd87dafb1b25a76|6f263b3f847647239b10ed1c63046b59|51516a8b-371f-4be2-9696-d77f4d5b5a79
+[2015.11.30-13.15.35:006][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.30-13.15.35:023][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.30-13.15.35:096][  0]LogInit: Transaction tracking system initialized
+[2015.11.30-13.15.35:148][  0]BlueprintLog: New page: Editor Load
+[2015.11.30-13.15.35:496][  0]LocalizationService: Info Localization service is disabled
+[2015.11.30-13.15.35:723][  0]LogConsoleResponse:Display: 
+[2015.11.30-13.15.35:927][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.30-13.15.36:054][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Yannic/Documents/GitHub/Factories3D/Content/' took 0.02s
+[2015.11.30-13.15.36:054][  0]SourceControl: Info Source control is disabled
+[2015.11.30-13.15.36:289][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files (x86)/Epic Games/4.10/FeaturePacks/StarterContent.upack)
+[2015.11.30-13.15.36:900][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2015.11.30-13.15.36:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2015.11.30-13.15.36:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2015.11.30-13.15.37:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2015.11.30-13.15.37:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2015.11.30-13.15.37:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2015.11.30-13.15.37:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2015.11.30-13.15.37:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2015.11.30-13.15.37:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2015.11.30-13.15.37:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2015.11.30-13.15.37:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2015.11.30-13.15.37:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2015.11.30-13.15.37:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Audio/Collapse01.uasset"
+[2015.11.30-13.15.37:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Audio/Collapse02.uasset"
+[2015.11.30-13.15.37:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2015.11.30-13.15.37:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Audio/Explosion01.uasset"
+[2015.11.30-13.15.37:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Audio/Explosion02.uasset"
+[2015.11.30-13.15.37:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2015.11.30-13.15.38:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Audio/Fire01.uasset"
+[2015.11.30-13.15.38:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2015.11.30-13.15.38:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2015.11.30-13.15.38:322][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2015.11.30-13.15.38:427][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Audio/Light01.uasset"
+[2015.11.30-13.15.38:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2015.11.30-13.15.38:644][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Audio/Light02.uasset"
+[2015.11.30-13.15.38:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2015.11.30-13.15.38:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Audio/Smoke01.uasset"
+[2015.11.30-13.15.38:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2015.11.30-13.15.38:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2015.11.30-13.15.39:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2015.11.30-13.15.40:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2015.11.30-13.15.41:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2015.11.30-13.15.41:797][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2015.11.30-13.15.42:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2015.11.30-13.15.42:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Audio/Steam01.uasset"
+[2015.11.30-13.15.42:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2015.11.30-13.15.42:208][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2015.11.30-13.15.42:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2015.11.30-13.15.42:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2015.11.30-13.15.42:351][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2015.11.30-13.15.42:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2015.11.30-13.15.42:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2015.11.30-13.15.42:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2015.11.30-13.15.42:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2015.11.30-13.15.42:598][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2015.11.30-13.15.42:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2015.11.30-13.15.42:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2015.11.30-13.15.42:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2015.11.30-13.15.42:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2015.11.30-13.15.42:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2015.11.30-13.15.43:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2015.11.30-13.15.43:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2015.11.30-13.15.48:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2015.11.30-13.15.48:757][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2015.11.30-13.15.49:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Maps/Minimal_Default.umap"
+[2015.11.30-13.15.50:369][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Maps/StarterMap.umap"
+[2015.11.30-13.15.50:620][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2015.11.30-13.15.50:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2015.11.30-13.15.50:992][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2015.11.30-13.15.51:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2015.11.30-13.15.51:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2015.11.30-13.15.51:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2015.11.30-13.15.51:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2015.11.30-13.15.51:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2015.11.30-13.15.51:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2015.11.30-13.15.51:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2015.11.30-13.15.51:456][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2015.11.30-13.15.51:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2015.11.30-13.15.51:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2015.11.30-13.15.51:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2015.11.30-13.15.51:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2015.11.30-13.15.51:873][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2015.11.30-13.15.51:959][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2015.11.30-13.15.51:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Glass.uasset"
+[2015.11.30-13.15.51:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2015.11.30-13.15.51:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2015.11.30-13.15.52:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2015.11.30-13.15.52:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2015.11.30-13.15.52:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2015.11.30-13.15.52:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2015.11.30-13.15.52:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2015.11.30-13.15.52:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2015.11.30-13.15.52:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2015.11.30-13.15.52:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2015.11.30-13.15.52:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2015.11.30-13.15.52:322][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2015.11.30-13.15.52:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2015.11.30-13.15.52:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2015.11.30-13.15.52:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2015.11.30-13.15.52:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2015.11.30-13.15.52:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2015.11.30-13.15.52:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2015.11.30-13.15.52:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2015.11.30-13.15.52:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2015.11.30-13.15.52:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2015.11.30-13.15.52:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2015.11.30-13.15.52:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2015.11.30-13.15.52:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2015.11.30-13.15.52:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2015.11.30-13.15.52:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2015.11.30-13.15.53:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Particles/P_Explosion.uasset"
+[2015.11.30-13.15.53:278][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Particles/P_Fire.uasset"
+[2015.11.30-13.15.53:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Particles/P_Smoke.uasset"
+[2015.11.30-13.15.53:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Particles/P_Sparks.uasset"
+[2015.11.30-13.15.53:381][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2015.11.30-13.15.53:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2015.11.30-13.15.53:456][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2015.11.30-13.15.53:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2015.11.30-13.15.53:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2015.11.30-13.15.53:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2015.11.30-13.15.53:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2015.11.30-13.15.53:710][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2015.11.30-13.15.53:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2015.11.30-13.15.53:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2015.11.30-13.15.53:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2015.11.30-13.15.53:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/MaterialSphere.uasset"
+[2015.11.30-13.15.53:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/SM_Bush.uasset"
+[2015.11.30-13.15.53:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/SM_Chair.uasset"
+[2015.11.30-13.15.53:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2015.11.30-13.15.54:032][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/SM_Couch.uasset"
+[2015.11.30-13.15.54:156][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/SM_Door.uasset"
+[2015.11.30-13.15.54:196][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2015.11.30-13.15.54:220][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2015.11.30-13.15.54:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2015.11.30-13.15.54:722][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2015.11.30-13.15.55:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2015.11.30-13.15.55:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2015.11.30-13.15.55:065][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2015.11.30-13.15.55:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/SM_Rock.uasset"
+[2015.11.30-13.15.55:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/SM_Shelf.uasset"
+[2015.11.30-13.15.55:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/SM_Stairs.uasset"
+[2015.11.30-13.15.55:389][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/SM_Statue.uasset"
+[2015.11.30-13.15.55:528][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/SM_TableRound.uasset"
+[2015.11.30-13.15.55:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2015.11.30-13.15.55:741][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2015.11.30-13.15.55:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2015.11.30-13.15.56:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2015.11.30-13.15.56:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2015.11.30-13.15.56:105][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2015.11.30-13.15.56:157][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2015.11.30-13.15.56:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2015.11.30-13.15.56:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2015.11.30-13.15.56:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2015.11.30-13.15.56:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2015.11.30-13.15.56:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2015.11.30-13.15.56:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2015.11.30-13.15.56:415][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2015.11.30-13.15.56:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2015.11.30-13.15.56:550][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2015.11.30-13.15.56:596][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2015.11.30-13.15.56:635][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2015.11.30-13.15.56:706][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2015.11.30-13.15.56:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2015.11.30-13.15.56:740][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2015.11.30-13.15.56:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2015.11.30-13.15.56:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2015.11.30-13.15.56:959][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2015.11.30-13.15.57:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2015.11.30-13.15.57:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2015.11.30-13.15.57:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2015.11.30-13.15.57:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2015.11.30-13.15.57:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2015.11.30-13.15.57:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2015.11.30-13.15.57:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2015.11.30-13.15.57:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2015.11.30-13.15.58:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2015.11.30-13.16.00:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2015.11.30-13.16.02:327][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2015.11.30-13.16.02:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2015.11.30-13.16.03:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2015.11.30-13.16.05:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2015.11.30-13.16.06:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2015.11.30-13.16.08:226][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2015.11.30-13.16.09:662][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2015.11.30-13.16.10:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2015.11.30-13.16.11:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2015.11.30-13.16.12:389][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2015.11.30-13.16.13:458][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2015.11.30-13.16.13:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2015.11.30-13.16.13:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2015.11.30-13.16.14:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2015.11.30-13.16.14:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2015.11.30-13.16.14:291][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2015.11.30-13.16.14:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2015.11.30-13.16.15:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2015.11.30-13.16.15:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2015.11.30-13.16.18:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2015.11.30-13.16.19:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2015.11.30-13.16.21:632][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2015.11.30-13.16.22:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2015.11.30-13.16.23:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2015.11.30-13.16.24:238][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2015.11.30-13.16.25:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2015.11.30-13.16.25:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2015.11.30-13.16.25:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2015.11.30-13.16.25:497][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2015.11.30-13.16.25:603][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2015.11.30-13.16.25:733][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2015.11.30-13.16.26:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2015.11.30-13.16.26:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2015.11.30-13.16.26:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2015.11.30-13.16.26:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2015.11.30-13.16.26:821][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2015.11.30-13.16.26:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2015.11.30-13.16.26:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Door_M.uasset"
+[2015.11.30-13.16.26:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Door_N.uasset"
+[2015.11.30-13.16.26:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2015.11.30-13.16.27:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2015.11.30-13.16.27:226][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2015.11.30-13.16.27:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2015.11.30-13.16.28:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2015.11.30-13.16.28:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2015.11.30-13.16.28:145][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2015.11.30-13.16.28:325][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2015.11.30-13.16.28:510][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2015.11.30-13.16.28:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2015.11.30-13.16.29:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2015.11.30-13.16.30:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2015.11.30-13.16.30:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2015.11.30-13.16.30:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2015.11.30-13.16.31:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2015.11.30-13.16.31:433][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2015.11.30-13.16.32:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2015.11.30-13.16.33:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2015.11.30-13.16.33:720][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2015.11.30-13.16.34:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2015.11.30-13.16.34:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2015.11.30-13.16.35:764][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2015.11.30-13.16.36:322][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2015.11.30-13.16.36:537][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2015.11.30-13.16.37:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2015.11.30-13.16.37:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2015.11.30-13.16.38:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2015.11.30-13.16.38:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2015.11.30-13.16.39:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2015.11.30-13.16.39:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2015.11.30-13.16.39:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2015.11.30-13.16.40:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2015.11.30-13.16.40:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2015.11.30-13.16.40:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2015.11.30-13.16.41:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2015.11.30-13.16.41:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2015.11.30-13.16.41:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2015.11.30-13.16.41:910][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2015.11.30-13.16.41:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2015.11.30-13.16.41:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2015.11.30-13.16.42:208][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2015.11.30-13.16.42:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2015.11.30-13.16.42:793][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2015.11.30-13.16.43:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2015.11.30-13.16.43:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2015.11.30-13.16.44:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2015.11.30-13.16.44:392][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2015.11.30-13.16.44:555][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2015.11.30-13.16.44:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2015.11.30-13.16.44:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2015.11.30-13.16.44:663][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2015.11.30-13.16.44:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Water_M.uasset"
+[2015.11.30-13.16.45:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Water_N.uasset"
+[2015.11.30-13.16.45:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2015.11.30-13.16.46:022][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2015.11.30-13.16.46:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2015.11.30-13.16.46:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2015.11.30-13.16.47:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2015.11.30-13.16.47:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2015.11.30-13.16.47:399][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2015.11.30-13.16.48:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2015.11.30-13.16.49:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2015.11.30-13.16.51:719][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2015.11.30-13.16.52:497][  0]LogSavePackage: Save=284.927887ms
+[2015.11.30-13.16.52:497][  0]LogSavePackage: Moving '../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Saved/Floor_400x4002DA50D9943A3FB492B484A943F3DD0BF.tmp' to '../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2015.11.30-13.16.52:501][  0]LogSavePackage: Total save time: 464.974497ms
+[2015.11.30-13.16.52:501][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2015.11.30-13.16.52:502][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2015.11.30-13.16.52:504][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.30-13.16.52:504][  0]LightingResults: New page: Lighting Build
+[2015.11.30-13.16.52:508][  0]MapCheck: New page: Map Check
+[2015.11.30-13.16.52:508][  0]LightingResults: New page: Lighting Build
+[2015.11.30-13.16.52:531][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001F3421A2AC0
+[2015.11.30-13.16.55:153][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.11.30-13.16.55:166][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.30-13.16.55:166][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.30-13.16.55:219][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.029ms to complete.
+[2015.11.30-13.16.55:219][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.715
+[2015.11.30-13.16.55:329][  0]LogCollectionManager: Loaded 0 collections in 0.002487 seconds
+[2015.11.30-13.16.55:372][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Yannic/Documents/GitHub/Factories3D/Saved/Collections/' took 0.01s
+[2015.11.30-13.16.55:372][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Yannic/Documents/GitHub/Factories3D/Content/Developers/Yannic/Collections/' took 0.01s
+[2015.11.30-13.16.55:372][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Yannic/Documents/GitHub/Factories3D/Content/Collections/' took 0.01s
+[2015.11.30-13.16.55:372][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.11.30-13.16.55:381][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 1893 classes and 338 folders.
+[2015.11.30-13.16.55:392][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.11.30-13.16.55:439][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.11.30-13.16.55:445][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.11.30-13.16.55:507][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.30-13.16.55:513][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.30-13.16.55:537][  0]LogLoad: Full Startup: 85.65 seconds (BP compile: 0.12 seconds)
+[2015.11.30-13.16.55:560][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.11.30-13.16.55:652][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.11.30-13.16.55:791][  0]LogRenderer: Reallocating scene render targets to support 1004x456 (Frame:3).
+[2015.11.30-13.16.56:497][ 12]LogAssetRegistry: Asset discovery search completed in 82.3035 seconds
+[2015.11.30-13.16.56:497][ 12]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2015.11.30-13.16.56:497][ 12]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000094 seconds (updated 0 objects)
+[2015.11.30-13.36.04:116][322]SourceControl: Info On branch master
+[2015.11.30-13.36.04:116][322]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2015.11.30-13.36.04:116][322]SourceControl: Info Changes not staged for commit:
+[2015.11.30-13.36.04:116][322]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2015.11.30-13.36.04:116][322]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2015.11.30-13.36.04:116][322]SourceControl: Info 	modified:   Config/DefaultEngine.ini
+[2015.11.30-13.36.04:116][322]SourceControl: Info 	modified:   Content/StarterContent/Architecture/Floor_400x400.uasset
+[2015.11.30-13.36.04:116][322]SourceControl: Info Untracked files:
+[2015.11.30-13.36.04:116][322]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2015.11.30-13.36.04:117][322]SourceControl: Info 	Factories3D.uproject
+[2015.11.30-13.36.04:117][322]SourceControl: Info 	Intermediate/
+[2015.11.30-13.36.04:117][322]SourceControl: Info 	Saved/
+[2015.11.30-13.36.04:117][322]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2015.11.30-13.38.18:434][226]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.11.30-13.38.18:434][226]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.30-13.38.18:488][226]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 30, 2015, 3:38:18 PM)
+[2015.11.30-13.38.18:514][226]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.11.30-13.38.18:588][226]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073827s)
+[2015.11.30-13.38.18:589][226]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.11.30-13.38.18:589][226]LogPlayLevel: PIE: World Init took: (0.001819s)
+[2015.11.30-13.38.18:610][226]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.096546s)
+[2015.11.30-13.38.18:668][226]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.30-13.38.18:686][226]LogInit: FAudioDevice initialized.
+[2015.11.30-13.38.18:919][226]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.30-13.38.18:945][226]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.11.30-14.38.18
+[2015.11.30-13.38.18:945][226]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.30-13.38.18:961][226]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.30-13.38.19:020][226]LogWorld: Bringing up level for play took: 0.080558
+[2015.11.30-13.38.19:309][226]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.874
+[2015.11.30-13.38.19:309][226]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.11.30-13.44.38:069][856]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.11.30-13.44.38:124][856]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.11.30-13.44.38:156][856]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001F3678EBD80
+[2015.11.30-13.45.54:354][ 52]LogEditorViewport: Clicking on Actor (LMB): DocumentationActor (DocumentationActor1)
+[2015.11.30-13.48.22:899][ 52]LogEditorViewport: Clicking on Actor (context menu): SphereReflectionCapture (SphereReflectionCapture)
+[2015.11.30-13.48.29:816][419]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.11.30-13.48.29:816][419]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.30-13.48.29:816][419]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 30, 2015, 3:48:29 PM)
+[2015.11.30-13.48.29:817][419]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.11.30-13.48.29:850][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032577s)
+[2015.11.30-13.48.29:851][419]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.11.30-13.48.29:851][419]LogPlayLevel: PIE: World Init took: (0.001705s)
+[2015.11.30-13.48.29:852][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.034796s)
+[2015.11.30-13.48.29:906][419]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.30-13.48.29:921][419]LogInit: FAudioDevice initialized.
+[2015.11.30-13.48.29:963][419]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.30-13.48.29:968][419]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.11.30-14.48.29
+[2015.11.30-13.48.29:968][419]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.30-13.48.29:968][419]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.30-13.48.29:969][419]LogWorld: Bringing up level for play took: 0.005379
+[2015.11.30-13.48.29:971][419]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.463
+[2015.11.30-13.48.29:972][419]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.11.30-13.48.36:081][777]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.11.30-13.48.36:121][777]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.11.30-13.48.36:190][778]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001F334AE9120
+[2015.11.30-13.48.56:353][898]LogUProjectInfo: Found projects:
+[2015.11.30-13.49.13:679][750]Cmd: CLOSE_SLATE_MAINFRAME
+[2015.11.30-13.49.25:406][750]LogSavePackage: Save=1027.283936ms
+[2015.11.30-13.49.25:406][750]LogSavePackage: Moving '../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Saved/ThirdPersonExampleMap9554183D44F9EF2F34C932B4F711F2C4.tmp' to '../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.11.30-13.49.25:412][750]LogSavePackage: Total save time: 1104.548998ms
+[2015.11.30-13.49.25:412][750]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Yannic/Documents/GitHub/Factories3D/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2015.11.30-13.49.25:507][750]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.316
+[2015.11.30-13.49.25:936][751]Cmd: QUIT_EDITOR
+[2015.11.30-13.49.26:866][751]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.30-13.49.27:007][751]LogExit: Preparing to exit.
+[2015.11.30-13.49.27:854][751]LogExit: Editor shut down
+[2015.11.30-13.49.27:855][751]LogExit: Transaction tracking system shut down
+[2015.11.30-13.49.27:857][751]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001F325F66520
+[2015.11.30-13.49.27:859][751]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001F34D5651C0
+[2015.11.30-13.49.27:860][751]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001F35359DB20
+[2015.11.30-13.49.28:126][751]LogExit: Object subsystem successfully closed.
+[2015.11.30-13.49.28:156][751]LogD3D11RHI: Shutdown
+[2015.11.30-13.49.28:156][751]LogD3D11RHI: CleanupD3DDevice
+[2015.11.30-13.49.28:298][751]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.30-13.49.28:340][751]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2015.11.30-13.49.28:340][751]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2015.11.30-13.49.28:340][751]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2015.11.30-13.49.28:340][751]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2015.11.30-13.49.28:340][751]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2015.11.30-13.49.28:344][751]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2015.11.30-13.49.28:344][751]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2015.11.30-13.49.28:345][751]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2015.11.30-13.49.28:345][751]LogModuleManager: Shutting down and abandoning module CookingStats (191)
+[2015.11.30-13.49.28:345][751]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2015.11.30-13.49.28:345][751]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2015.11.30-13.49.28:345][751]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2015.11.30-13.49.28:345][751]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2015.11.30-13.49.28:345][751]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2015.11.30-13.49.28:345][751]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2015.11.30-13.49.28:345][751]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2015.11.30-13.49.28:345][751]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2015.11.30-13.49.28:345][751]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2015.11.30-13.49.28:345][751]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2015.11.30-13.49.28:345][751]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2015.11.30-13.49.28:345][751]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2015.11.30-13.49.28:345][751]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2015.11.30-13.49.28:345][751]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2015.11.30-13.49.28:345][751]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2015.11.30-13.49.28:345][751]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2015.11.30-13.49.28:345][751]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2015.11.30-13.49.28:346][751]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2015.11.30-13.49.29:167][751]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2015.11.30-13.49.29:167][751]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2015.11.30-13.49.29:167][751]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2015.11.30-13.49.29:167][751]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2015.11.30-13.49.29:167][751]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2015.11.30-13.49.29:167][751]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2015.11.30-13.49.29:167][751]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2015.11.30-13.49.29:167][751]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2015.11.30-13.49.29:167][751]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2015.11.30-13.49.29:168][751]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2015.11.30-13.49.29:168][751]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2015.11.30-13.49.29:168][751]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2015.11.30-13.49.29:168][751]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2015.11.30-13.49.29:168][751]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2015.11.30-13.49.29:168][751]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2015.11.30-13.49.29:168][751]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2015.11.30-13.49.29:168][751]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2015.11.30-13.49.29:168][751]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2015.11.30-13.49.29:168][751]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2015.11.30-13.49.29:169][751]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2015.11.30-13.49.29:169][751]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2015.11.30-13.49.29:169][751]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2015.11.30-13.49.29:169][751]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2015.11.30-13.49.29:169][751]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2015.11.30-13.49.29:169][751]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2015.11.30-13.49.29:169][751]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2015.11.30-13.49.29:170][751]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2015.11.30-13.49.29:170][751]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2015.11.30-13.49.29:170][751]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2015.11.30-13.49.29:170][751]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2015.11.30-13.49.29:170][751]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2015.11.30-13.49.29:170][751]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2015.11.30-13.49.29:172][751]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2015.11.30-13.49.29:173][751]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2015.11.30-13.49.29:173][751]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2015.11.30-13.49.29:173][751]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2015.11.30-13.49.29:173][751]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2015.11.30-13.49.29:173][751]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2015.11.30-13.49.29:173][751]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2015.11.30-13.49.29:173][751]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2015.11.30-13.49.29:173][751]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2015.11.30-13.49.29:173][751]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2015.11.30-13.49.29:173][751]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2015.11.30-13.49.29:173][751]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2015.11.30-13.49.29:173][751]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2015.11.30-13.49.29:173][751]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2015.11.30-13.49.29:173][751]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2015.11.30-13.49.29:173][751]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2015.11.30-13.49.29:173][751]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2015.11.30-13.49.29:173][751]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2015.11.30-13.49.29:361][751]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2015.11.30-13.49.29:361][751]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.11.30-13.49.29:361][751]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.11.30-13.49.29:361][751]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.11.30-13.49.29:361][751]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.11.30-13.49.29:361][751]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2015.11.30-13.49.29:361][751]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2015.11.30-13.49.29:361][751]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.11.30-13.49.29:390][751]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.11.30-13.49.29:390][751]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.11.30-13.49.29:390][751]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.11.30-13.49.29:390][751]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.11.30-13.49.29:390][751]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.11.30-13.49.29:390][751]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.11.30-13.49.29:390][751]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.11.30-13.49.29:390][751]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.11.30-13.49.29:390][751]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.11.30-13.49.29:390][751]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.11.30-13.49.29:390][751]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.11.30-13.49.29:390][751]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.11.30-13.49.29:390][751]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.11.30-13.49.29:390][751]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.11.30-13.49.29:390][751]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.11.30-13.49.29:390][751]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.11.30-13.49.29:390][751]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.11.30-13.49.29:391][751]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.11.30-13.49.29:391][751]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.11.30-13.49.29:391][751]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.11.30-13.49.29:391][751]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.11.30-13.49.29:391][751]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.11.30-13.49.29:391][751]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.11.30-13.49.29:391][751]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.11.30-13.49.29:393][751]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.11.30-13.49.29:394][751]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2015.11.30-13.49.29:538][751]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2015.11.30-13.49.29:539][751]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2015.11.30-13.49.29:539][751]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2015.11.30-13.49.29:640][751]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2015.11.30-13.49.29:640][751]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2015.11.30-13.49.29:640][751]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2015.11.30-13.49.29:645][751]LogModuleManager: Shutting down and abandoning module Media (82)
+[2015.11.30-13.49.29:645][751]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2015.11.30-13.49.29:646][751]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2015.11.30-13.49.29:646][751]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2015.11.30-13.49.29:646][751]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2015.11.30-13.49.29:647][751]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2015.11.30-13.49.29:647][751]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2015.11.30-13.49.29:647][751]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2015.11.30-13.49.29:647][751]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2015.11.30-13.49.29:647][751]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2015.11.30-13.49.29:647][751]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2015.11.30-13.49.29:648][751]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2015.11.30-13.49.29:648][751]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2015.11.30-13.49.29:648][751]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2015.11.30-13.49.29:648][751]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2015.11.30-13.49.29:648][751]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2015.11.30-13.49.29:657][751]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2015.11.30-13.49.29:657][751]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2015.11.30-13.49.29:657][751]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2015.11.30-13.49.29:657][751]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2015.11.30-13.49.29:657][751]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2015.11.30-13.49.29:657][751]LogModuleManager: Shutting down and abandoning module Core (60)
+[2015.11.30-13.49.29:657][751]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2015.11.30-13.49.29:657][751]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2015.11.30-13.49.29:657][751]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2015.11.30-13.49.29:657][751]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2015.11.30-13.49.29:685][751]LogDerivedDataCache: Shutdown
+[2015.11.30-13.49.29:685][751]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2015.11.30-13.49.29:685][751]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2015.11.30-13.49.29:685][751]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2015.11.30-13.49.29:685][751]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2015.11.30-13.49.29:685][751]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2015.11.30-13.49.29:685][751]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2015.11.30-13.49.29:685][751]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2015.11.30-13.49.29:685][751]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2015.11.30-13.49.29:685][751]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2015.11.30-13.49.29:685][751]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2015.11.30-13.49.29:685][751]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2015.11.30-13.49.29:685][751]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2015.11.30-13.49.29:685][751]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2015.11.30-13.49.29:685][751]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2015.11.30-13.49.29:685][751]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2015.11.30-13.49.29:685][751]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2015.11.30-13.49.29:685][751]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2015.11.30-13.49.29:685][751]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2015.11.30-13.49.29:685][751]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2015.11.30-13.49.29:685][751]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2015.11.30-13.49.29:686][751]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2015.11.30-13.49.29:686][751]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2015.11.30-13.49.29:686][751]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2015.11.30-13.49.29:686][751]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2015.11.30-13.49.29:686][751]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2015.11.30-13.49.29:686][751]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2015.11.30-13.49.29:686][751]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2015.11.30-13.49.29:686][751]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2015.11.30-13.49.29:686][751]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2015.11.30-13.49.29:686][751]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2015.11.30-13.49.29:686][751]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2015.11.30-13.49.29:686][751]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2015.11.30-13.49.29:686][751]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2015.11.30-13.49.29:686][751]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2015.11.30-13.49.29:686][751]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2015.11.30-13.49.29:686][751]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2015.11.30-13.49.29:686][751]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2015.11.30-13.49.31:692][751]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2015.11.30-13.49.31:692][751]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2015.11.30-13.49.31:692][751]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.11.30-13.49.31:692][751]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.30-13.49.31:692][751]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.30-13.49.31:692][751]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.30-13.49.31:692][751]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.30-13.49.31:695][751]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.30-13.49.31:695][751]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.30-13.49.31:695][751]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.30-13.49.31:695][751]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.30-13.49.31:695][751]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.30-13.49.31:695][751]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.30-13.49.31:695][751]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.30-13.49.31:695][751]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.30-13.49.31:695][751]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.30-13.49.31:695][751]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.30-13.49.31:699][751]LogExit: Exiting.
+[2015.11.30-13.49.31:714][751]Log file closed, 11/30/15 14:49:31
